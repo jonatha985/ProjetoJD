@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 {% load static %}
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -282,23 +282,23 @@
       <h2>{{request.user.first_name}}</h2>
     </header>
     <ul>
-      <li tabindex="0" class="icon-dashboard"> <a style="color:white; text-decoration:none;" href="/patient-dashboard"><span>Dashboard</span></a> </li>
-      <li tabindex="0" class="icon-calendar"> <a style="color:white; text-decoration:none;" href="/patient-appointment"><span>Appointments</span></a></li>
-      <li tabindex="0" class="icon-users"> <a style="color:white; text-decoration:none;" href="/patient-discharge"><span>Discharge</span></a></li>
+      <li tabindex="0" class="icon-dashboard"> <a style="color:white; text-decoration:none;" href="/patient-dashboard"><span>Painel</span></a> </li>
+      <li tabindex="0" class="icon-calendar"> <a style="color:white; text-decoration:none;" href="/patient-appointment"><span>Compromissos</span></a></li>
+      <li tabindex="0" class="icon-users"> <a style="color:white; text-decoration:none;" href="/patient-discharge"><span>Descarga</span></a></li>
     </ul>
   </nav>
   <main>
     <!-- nav start -->
     <div class="bs-example">
       <nav class="navbar navbar-expand-md  navbar-dark fixed-top" style="background:#337AB7;">
-        <a href="/patient-dashboard" class="navbar-brand">HOSPITAL MANAGEMENT</a>
+        <a href="/patient-dashboard" class="navbar-brand">GESTÃO HOSPITALAR</a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
           <div class="navbar-nav" style=" margin-left: 90%;">
 
-            <a href="/logout" class="nav-item nav-link">Logout</a>
+            <a href="/logout" class="nav-item nav-link">Sair</a>
           </div>
         </div>
       </nav>
@@ -318,7 +318,7 @@
           <div class="col-md-12 col-sm-12">
             <div style="color:#ffffff;" class="wow fadeInUp footer-copyright">
               <p>
-                Copyright &copy; 2021 Developed By Sumit Kumar </p>
+                Desenvolvido por GTI</p>
             </div>
           </div>
         </div>
